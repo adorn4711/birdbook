@@ -11,18 +11,19 @@ interface Post {
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,PostComponent],
+  //imports: [RouterOutlet,PostComponent],
+  imports: [PostComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
   protected readonly title = signal('birdbook');
 
-  data:Array<Post> = [];
+  data = signal<Array<Post>>([]);
 
   async ngOnInit() {
     const response = await fetch('./assets/data/posts.json');
-    this.data = await response.json();
-    console.log(this.data); 
+    const posts = await response.json();
+    this.data.set(posts);
   }
 }

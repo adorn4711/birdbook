@@ -8,6 +8,28 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 ```
 git remote add origin git@github-private:adorn4711/birdbook.git
 ```
+### Create a prod version
+
+``` 
+                                    14:59:50
+bun ng add angular-cli-ghpages 
+```
+bun ng build  --base-href "https://adorn4711.github.io/birdbook"
+```
+It creates a dist folder
+### Running version
+Deployes the current respository to gitactions:
+- clone origin/gh-pages to temp space
+- merge current workspace in temp space
+- do other stuff
+- upload in origin/gh-pages. 
+- gitaction will start to deploy
+```
+bun ng build --configuration production
+bun ng deploy
+```
+https://adorn4711.github.io/birdbook/
+https://adorn4711.github.io/birdbook/
 
 ## Development server
 
