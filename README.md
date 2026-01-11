@@ -3,12 +3,16 @@
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
 
 
+https://demo.angulararchitects.io/api/flight
+
 ## How to connect to remote git
 
 ```
 git remote add origin git@github-private:adorn4711/birdbook.git
 ```
 ### Create a prod version
+
+[angular-cli-ghpages]{https://github.com/angular-schule/angular-cli-ghpages}
 
 ``` 
                                     14:59:50
