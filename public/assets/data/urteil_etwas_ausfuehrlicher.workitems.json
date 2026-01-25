@@ -1,0 +1,449 @@
+[
+  {
+    "id": "E-001",
+    "title": "a) Dach, Brandschutz",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "Entgegen den Anforderungen nach § 30 Abs. 5 und 7 sowie § 32 Abs. 5 BauO NW:",
+    "subitems": [
+      {
+        "id": "E-001-1",
+        "title": "bb)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Die Brandwand zum östlichen Nachbarn entspricht nicht § 30 Abs. 7 BauO NRW (brennbare PU-Hartschaumplatten als Wärmedämmung). Weitere brennbare Baustoffe (Gummigranulatmatten) befinden sich unter der Blechabdeckung der Brandwände."
+      },
+      {
+        "id": "E-001-2",
+        "title": "cc)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "In den über Dach geführten Brandwänden befinden sich Hohlräume und Fehlstellen, die nicht mit nicht brennbaren Stoffen gefüllt sind."
+      },
+      {
+        "id": "E-001-3",
+        "title": "dd)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Die Abstände der Gauben zu den Brandwänden sind zu gering (1,20 m bzw. 0,85 m statt der geforderten 1,25 m), zudem sind die Gauben aus brennbaren Baustoffen errichtet."
+      },
+      {
+        "id": "E-001-4",
+        "title": "ee)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Gummigranulat-Platte zwischen Blechabdeckung und Mauerkrone der westlichen Brandwand."
+      }
+    ]
+  },
+  {
+    "id": "E-002",
+    "title": "b) Dach mit Gauben, Anschlüsse und Einfassungen",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "Entgegen den allgemein anerkannten Regeln der Technik:",
+    "subitems": [
+      {
+        "id": "E-002-1",
+        "title": "aa)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Überdeckung der Dachziegel durch Metallanschlüsse bei der hofseitigen Dachgaube beträgt weniger als 100 mm."
+      },
+      {
+        "id": "E-002-2",
+        "title": "bb)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Hochpunkte der Dachdeckung werden bei seitlichen Metallanschlüssen nicht um mindestens 0,5 cm überragt."
+      },
+      {
+        "id": "E-002-3",
+        "title": "cc)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Seitliche Überlappung der Schichtstücke aus Blei beträgt nicht mindestens 100 mm."
+      },
+      {
+        "id": "E-002-4",
+        "title": "dd)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Schadstelle am südlichen Anschluss der Dachrinne (Wassereintritt möglich)."
+      },
+      {
+        "id": "E-002-5",
+        "title": "ee) & ff)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Kaminanschluss mit ungeeigneten Klebebändern ausgeführt, die sich bereits ablösen."
+      },
+      {
+        "id": "E-002-6",
+        "title": "gg)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Dachziegel überdecken die Flachdachabdichtung der Gauben nicht um mindestens 100 mm."
+      },
+      {
+        "id": "E-002-7",
+        "title": "hh)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Dacheindeckung teilweise mit beschädigten Ziegeln."
+      },
+      {
+        "id": "E-002-8",
+        "title": "jj)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Dellen in der Unterspannbahn (Wassersäcke) und Bauschutt auf der Bahn."
+      },
+      {
+        "id": "E-002-9",
+        "title": "kk)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Dampfbremsfolie ohne lineare Anpressung (liegt lose an)."
+      },
+      {
+        "id": "E-002-10",
+        "title": "ll)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Fehlende Windsogbefestigung der Dacheindeckung."
+      },
+      {
+        "id": "E-002-11",
+        "title": "mm)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Abdichtungslagen bei Gauben und Terrasse Whg. 4 nicht vollflächig verklebt."
+      },
+      {
+        "id": "E-002-12",
+        "title": "nn)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Schäden an der Bitumenabdichtung (mechanisch/thermisch), Trägereinlage teilweise sichtbar."
+      }
+    ]
+  },
+  {
+    "id": "E-003",
+    "title": "c) Flachdach oberste Dachterrasse",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-003-1",
+        "title": "bb)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Gefälle von weniger als 2,0 % (gefällelos im Sinne der Richtlinien)."
+      },
+      {
+        "id": "E-003-2",
+        "title": "cc)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Flüssigabdichtung an Geländerfüßen unzureichend hochgeführt (weniger als 10 cm), Trägervlies fehlt teilweise."
+      }
+    ]
+  },
+  {
+    "id": "E-004",
+    "title": "d) Flachdach, Abdichtungsbahn",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-004-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Die Dachbahn (Bauder) ist nicht mechanisch gegen Windsogkräfte fixiert."
+      }
+    ]
+  },
+  {
+    "id": "E-005",
+    "title": "e) Übrige Flachdächer / Terrassen",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-005-1",
+        "title": "aa)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Kaltselbstklebende Polymerbitumenbahn statt Schweißbahn als Oberlage (Whg. 5)."
+      },
+      {
+        "id": "E-005-2",
+        "title": "bb)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Abdichtung nicht 15 cm über Belagsoberfläche hochgeführt, Randbefestigung fehlt teilweise."
+      },
+      {
+        "id": "E-005-3",
+        "title": "cc)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "An Terrassentüren endet die Abdichtung unterhalb des Belags oder weniger als 5 cm darüber."
+      },
+      {
+        "id": "E-005-4",
+        "title": "dd)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Unterkonstruktionen ohne Gefälle (weniger als 2 %)."
+      }
+    ]
+  },
+  {
+    "id": "E-006",
+    "title": "f) Dachrinnen",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-006-1",
+        "title": "aa)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Weichlotbreiten zu gering (waagerecht < 10 mm, senkrecht < 5 mm)."
+      },
+      {
+        "id": "E-006-2",
+        "title": "bb)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Fehlende Sicherung gegen Abrutschen bei den Fallrohren."
+      },
+      {
+        "id": "E-006-3",
+        "title": "cc)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Rinnenvorderkanten liegen höher als Hinterkanten (Whg. 5 und hofseitige Gaube)."
+      },
+      {
+        "id": "E-006-4",
+        "title": "dd)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Abdichtung der oberen Terrasse nicht sicher gegen Hinterlaufen an die Rinne des Nachbarn geführt."
+      },
+      {
+        "id": "E-006-5",
+        "title": "ff)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Fehlender oder lückenhafter Korrosionsschutzanstrich."
+      },
+      {
+        "id": "E-006-6",
+        "title": "gg)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Knicke und Dellen in drei Dachrinnen."
+      }
+    ]
+  },
+  {
+    "id": "E-007",
+    "title": "g) Dachentwässerung",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-007-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Regenwasser wird kaskadenartig über Fallrohre auf die Hoffläche geleitet (statt Entwässerungsanlage). Folge: Feuchtebelastung, Algenbildung, Pfützen und Glatteisgefahr im Hof."
+      }
+    ]
+  },
+  {
+    "id": "E-008",
+    "title": "h) Innenhof",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-008-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Sockel nicht ausreichend gegen Feuchtigkeit geschützt (bereits Schäden vorhanden)."
+      }
+    ]
+  },
+  {
+    "id": "E-009",
+    "title": "i) Metallarbeiten an den Dachgauben",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-009-1",
+        "title": "aa)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Dellen in Anschlussblechen."
+      },
+      {
+        "id": "E-009-2",
+        "title": "bb)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Fensterbänke ohne Gefälle oder mit Kontergefälle."
+      },
+      {
+        "id": "E-009-3",
+        "title": "cc)",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Fensterbankanschlüsse wasserhinterläufig, fehlende Aufkantungen."
+      }
+    ]
+  },
+  {
+    "id": "E-010",
+    "title": "k) Übergang Innen/Außen",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-010-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Parkettboden, Estrich und Fußbodenheizung verlaufen unterhalb der Terrassentüre 0,6 m tief in den Außenbereich der obersten Dachterrasse; eine Luftdichtheitsebene fehlt."
+      }
+    ]
+  },
+  {
+    "id": "E-011",
+    "title": "l) Hofseitige Dachgaube",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-011-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Aus diversen Holzteilen und -resten zusammengestückelt; teilweise geschädigte Hölzer verwendet; Standsicherheit nicht nachweisbar; Gebrauchstauglichkeit eingeschränkt."
+      }
+    ]
+  },
+  {
+    "id": "E-012",
+    "title": "m) Straßenseitige Dachterrasse",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-012-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Befestigung von Blech- und Holzbekleidungen mit Trockenbauschrauben (nicht für Außenbereich geeignet)."
+      }
+    ]
+  },
+  {
+    "id": "E-013",
+    "title": "n) Wohnung Nr. 4 & 5",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-013-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Wärmedämmung unzureichend/lückenhaft ausgeführt (Wärmebrücken); Feuchtigkeitsschäden an Decken; Gipskartonplatten teilweise ohne Unterkonstruktion direkt auf Sparren geschraubt."
+      }
+    ]
+  },
+  {
+    "id": "E-014",
+    "title": "o) WPC-Dielen",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-014-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Annähernd gefällelos verlegt; teilweise mit korrodierten Schrauben befestigt; verformte Dielen; teilweise bis unmittelbar an aufgehende Bauteile geführt (fehlende Dehnungsfugen)."
+      }
+    ]
+  },
+  {
+    "id": "E-015",
+    "title": "p) Terrassengeländer",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-015-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Zum Teil instabil (\"wackelig\"); Füllstäbe fallen herab; Klemmhalter korrodiert (\"verrostet\")."
+      }
+    ]
+  },
+  {
+    "id": "E-016",
+    "title": "q) Leitungen",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-016-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Fehlende Brandschutzmanschetten bei Deckendurchführungen (Abfluss-, Elektro- und Heizungsleitungen)."
+      }
+    ]
+  },
+  {
+    "id": "E-017",
+    "title": "r) Bodentiefe Fenster (Wohnung Nr. 2)",
+    "verdict": "maybe",
+    "estimate": 0,
+    "description": "",
+    "subitems": [
+      {
+        "id": "E-017-1",
+        "title": "Item 1",
+        "verdict": "maybe",
+        "estimate": 0,
+        "description": "Anschluss nicht sach- und fachgerecht; Entwässerungsöffnungen mit Dichtstoff verschlossen; Anschlusshöhe zu gering (ca. 7 cm statt 15 cm)."
+      }
+    ]
+  }
+]

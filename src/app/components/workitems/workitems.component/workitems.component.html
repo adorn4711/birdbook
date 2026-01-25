@@ -1,0 +1,8 @@
+<p>Workitems</p>
+
+<div> Number: {{ workitems().length }}</div>
+<div class="workitems">
+@for(workitem of workitems(); track workitem.title) {
+    <app-workitem [title]="workitem.title" [description]="workitem.description" [estimate]="workitem.estimate" [verdict]="workitem.verdict" [subitems]="workitem.subitems ?? []"></app-workitem>
+  } 
+</div>  

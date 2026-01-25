@@ -1,0 +1,20 @@
+<div class="workitem">
+    <div class="workitem-header">
+        <strong>Titel:</strong> {{workitem.title}}
+    </div>
+    <div class="workitem-left">
+      <div><strong>Estimate:</strong> {{workitem.estimate}}</div>
+    <div><strong>Verdict:</strong> {{workitem.verdict}}</div>
+    </div>
+    <div class="workitem-right">
+          <div>{{workitem.description}}</div>
+    </div>        
+    <div class="workitem-subitems" >
+    </div>
+    <div>
+      @for(subitem of subitems; track subitem.id) {
+        <div class="workitem-subitem">
+          <app-workitem [title]="subitem.title" [description]="subitem.description" [estimate]="subitem.estimate" [verdict]="subitem.verdict" [subitems]="subitem.subitems ?? []"></app-workitem>  
+        </div>
+      }
+</div>

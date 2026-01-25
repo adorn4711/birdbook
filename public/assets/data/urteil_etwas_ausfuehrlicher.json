@@ -1,0 +1,260 @@
+{
+  "section_title": "I. Der Tenor (Die Entscheidung)",
+  "entries": [
+    {
+      "title": "a) Dach, Brandschutz",
+      "description": "Entgegen den Anforderungen nach § 30 Abs. 5 und 7 sowie § 32 Abs. 5 BauO NW:",
+      "items": [
+        {
+          "subtitle": "bb)",
+          "sub_description": "Die Brandwand zum östlichen Nachbarn entspricht nicht § 30 Abs. 7 BauO NRW (brennbare PU-Hartschaumplatten als Wärmedämmung). Weitere brennbare Baustoffe (Gummigranulatmatten) befinden sich unter der Blechabdeckung der Brandwände."
+        },
+        {
+          "subtitle": "cc)",
+          "sub_description": "In den über Dach geführten Brandwänden befinden sich Hohlräume und Fehlstellen, die nicht mit nicht brennbaren Stoffen gefüllt sind."
+        },
+        {
+          "subtitle": "dd)",
+          "sub_description": "Die Abstände der Gauben zu den Brandwänden sind zu gering (1,20 m bzw. 0,85 m statt der geforderten 1,25 m), zudem sind die Gauben aus brennbaren Baustoffen errichtet."
+        },
+        {
+          "subtitle": "ee)",
+          "sub_description": "Gummigranulat-Platte zwischen Blechabdeckung und Mauerkrone der westlichen Brandwand."
+        }
+      ]
+    },
+    {
+      "title": "b) Dach mit Gauben, Anschlüsse und Einfassungen",
+      "description": "Entgegen den allgemein anerkannten Regeln der Technik:",
+      "items": [
+        {
+          "subtitle": "aa)",
+          "sub_description": "Überdeckung der Dachziegel durch Metallanschlüsse bei der hofseitigen Dachgaube beträgt weniger als 100 mm."
+        },
+        {
+          "subtitle": "bb)",
+          "sub_description": "Hochpunkte der Dachdeckung werden bei seitlichen Metallanschlüssen nicht um mindestens 0,5 cm überragt."
+        },
+        {
+          "subtitle": "cc)",
+          "sub_description": "Seitliche Überlappung der Schichtstücke aus Blei beträgt nicht mindestens 100 mm."
+        },
+        {
+          "subtitle": "dd)",
+          "sub_description": "Schadstelle am südlichen Anschluss der Dachrinne (Wassereintritt möglich)."
+        },
+        {
+          "subtitle": "ee) & ff)",
+          "sub_description": "Kaminanschluss mit ungeeigneten Klebebändern ausgeführt, die sich bereits ablösen."
+        },
+        {
+          "subtitle": "gg)",
+          "sub_description": "Dachziegel überdecken die Flachdachabdichtung der Gauben nicht um mindestens 100 mm."
+        },
+        {
+          "subtitle": "hh)",
+          "sub_description": "Dacheindeckung teilweise mit beschädigten Ziegeln."
+        },
+        {
+          "subtitle": "jj)",
+          "sub_description": "Dellen in der Unterspannbahn (Wassersäcke) und Bauschutt auf der Bahn."
+        },
+        {
+          "subtitle": "kk)",
+          "sub_description": "Dampfbremsfolie ohne lineare Anpressung (liegt lose an)."
+        },
+        {
+          "subtitle": "ll)",
+          "sub_description": "Fehlende Windsogbefestigung der Dacheindeckung."
+        },
+        {
+          "subtitle": "mm)",
+          "sub_description": "Abdichtungslagen bei Gauben und Terrasse Whg. 4 nicht vollflächig verklebt."
+        },
+        {
+          "subtitle": "nn)",
+          "sub_description": "Schäden an der Bitumenabdichtung (mechanisch/thermisch), Trägereinlage teilweise sichtbar."
+        }
+      ]
+    },
+    {
+      "title": "c) Flachdach oberste Dachterrasse",
+      "items": [
+        {
+          "subtitle": "bb)",
+          "sub_description": "Gefälle von weniger als 2,0 % (gefällelos im Sinne der Richtlinien)."
+        },
+        {
+          "subtitle": "cc)",
+          "sub_description": "Flüssigabdichtung an Geländerfüßen unzureichend hochgeführt (weniger als 10 cm), Trägervlies fehlt teilweise."
+        }
+      ]
+    },
+    {
+      "title": "d) Flachdach, Abdichtungsbahn",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Die Dachbahn (Bauder) ist nicht mechanisch gegen Windsogkräfte fixiert."
+        }
+      ]
+    },
+    {
+      "title": "e) Übrige Flachdächer / Terrassen",
+      "items": [
+        {
+          "subtitle": "aa)",
+          "sub_description": "Kaltselbstklebende Polymerbitumenbahn statt Schweißbahn als Oberlage (Whg. 5)."
+        },
+        {
+          "subtitle": "bb)",
+          "sub_description": "Abdichtung nicht 15 cm über Belagsoberfläche hochgeführt, Randbefestigung fehlt teilweise."
+        },
+        {
+          "subtitle": "cc)",
+          "sub_description": "An Terrassentüren endet die Abdichtung unterhalb des Belags oder weniger als 5 cm darüber."
+        },
+        {
+          "subtitle": "dd)",
+          "sub_description": "Unterkonstruktionen ohne Gefälle (weniger als 2 %)."
+        }
+      ]
+    },
+    {
+      "title": "f) Dachrinnen",
+      "items": [
+        {
+          "subtitle": "aa)",
+          "sub_description": "Weichlotbreiten zu gering (waagerecht < 10 mm, senkrecht < 5 mm)."
+        },
+        {
+          "subtitle": "bb)",
+          "sub_description": "Fehlende Sicherung gegen Abrutschen bei den Fallrohren."
+        },
+        {
+          "subtitle": "cc)",
+          "sub_description": "Rinnenvorderkanten liegen höher als Hinterkanten (Whg. 5 und hofseitige Gaube)."
+        },
+        {
+          "subtitle": "dd)",
+          "sub_description": "Abdichtung der oberen Terrasse nicht sicher gegen Hinterlaufen an die Rinne des Nachbarn geführt."
+        },
+        {
+          "subtitle": "ff)",
+          "sub_description": "Fehlender oder lückenhafter Korrosionsschutzanstrich."
+        },
+        {
+          "subtitle": "gg)",
+          "sub_description": "Knicke und Dellen in drei Dachrinnen."
+        }
+      ]
+    },
+    {
+      "title": "g) Dachentwässerung",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Regenwasser wird kaskadenartig über Fallrohre auf die Hoffläche geleitet (statt Entwässerungsanlage). Folge: Feuchtebelastung, Algenbildung, Pfützen und Glatteisgefahr im Hof."
+        }
+      ]
+    },
+    {
+      "title": "h) Innenhof",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Sockel nicht ausreichend gegen Feuchtigkeit geschützt (bereits Schäden vorhanden)."
+        }
+      ]
+    },
+    {
+      "title": "i) Metallarbeiten an den Dachgauben",
+      "items": [
+        {
+          "subtitle": "aa)",
+          "sub_description": "Dellen in Anschlussblechen."
+        },
+        {
+          "subtitle": "bb)",
+          "sub_description": "Fensterbänke ohne Gefälle oder mit Kontergefälle."
+        },
+        {
+          "subtitle": "cc)",
+          "sub_description": "Fensterbankanschlüsse wasserhinterläufig, fehlende Aufkantungen."
+        }
+      ]
+    },
+    {
+      "title": "k) Übergang Innen/Außen",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Parkettboden, Estrich und Fußbodenheizung verlaufen unterhalb der Terrassentüre 0,6 m tief in den Außenbereich der obersten Dachterrasse; eine Luftdichtheitsebene fehlt."
+        }
+      ]
+    },
+    {
+      "title": "l) Hofseitige Dachgaube",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Aus diversen Holzteilen und -resten zusammengestückelt; teilweise geschädigte Hölzer verwendet; Standsicherheit nicht nachweisbar; Gebrauchstauglichkeit eingeschränkt."
+        }
+      ]
+    },
+    {
+      "title": "m) Straßenseitige Dachterrasse",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Befestigung von Blech- und Holzbekleidungen mit Trockenbauschrauben (nicht für Außenbereich geeignet)."
+        }
+      ]
+    },
+    {
+      "title": "n) Wohnung Nr. 4 & 5",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Wärmedämmung unzureichend/lückenhaft ausgeführt (Wärmebrücken); Feuchtigkeitsschäden an Decken; Gipskartonplatten teilweise ohne Unterkonstruktion direkt auf Sparren geschraubt."
+        }
+      ]
+    },
+    {
+      "title": "o) WPC-Dielen",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Annähernd gefällelos verlegt; teilweise mit korrodierten Schrauben befestigt; verformte Dielen; teilweise bis unmittelbar an aufgehende Bauteile geführt (fehlende Dehnungsfugen)."
+        }
+      ]
+    },
+    {
+      "title": "p) Terrassengeländer",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Zum Teil instabil (\"wackelig\"); Füllstäbe fallen herab; Klemmhalter korrodiert (\"verrostet\")."
+        }
+      ]
+    },
+    {
+      "title": "q) Leitungen",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Fehlende Brandschutzmanschetten bei Deckendurchführungen (Abfluss-, Elektro- und Heizungsleitungen)."
+        }
+      ]
+    },
+    {
+      "title": "r) Bodentiefe Fenster (Wohnung Nr. 2)",
+      "items": [
+        {
+          "subtitle": "",
+          "sub_description": "Anschluss nicht sach- und fachgerecht; Entwässerungsöffnungen mit Dichtstoff verschlossen; Anschlusshöhe zu gering (ca. 7 cm statt 15 cm)."
+        }
+      ]
+    }
+  ]
+}
