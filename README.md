@@ -3,7 +3,7 @@
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
 
 
-https://demo.angulararchitects.io/api/flight
+Link for add googlesheets:{https://www.npmjs.com/package/google-spreadsheet?activeTab=readme} 
 
 ## How to connect to remote git
 
@@ -40,7 +40,7 @@ https://adorn4711.github.io/birdbook/
 To start a local development server, run:
 
 ```bash
-ng serve
+bun ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.

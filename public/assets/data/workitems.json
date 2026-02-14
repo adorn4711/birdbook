@@ -1,0 +1,16 @@
+[
+  {
+    "id": "WI-1",
+    "title": "Add proxy fallback",
+    "verdict": "maybe",
+    "estimate": 3,
+    "description": "Use assets in dev when backend is off"
+  },
+  {
+    "id": "WI-2",
+    "title": "Build UI",
+    "verdict": "yes",
+    "estimate": 5,
+    "description": "Render work items as cards"
+  }
+]
