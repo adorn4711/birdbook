@@ -5,5 +5,7 @@ export interface WorkItem {
   verdict: 'yes' | 'no' | 'maybe';
   estimate: number
   description: string;
+  estimateExplanation?: string;
+  changed?:boolean
   subitems?: WorkItem[];
 }

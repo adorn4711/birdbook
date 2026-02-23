@@ -1,3 +1,34 @@
+.workitems-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.workitems-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.workitems-save,
+.workitems-reset {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 2px solid #f8e36c;
+    background: #1f1f2e;
+    color: #f8e36c;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(248, 227, 108, 0.2);
+}
+
+.workitems-save:hover,
+.workitems-reset:hover {
+    background: #2b2b3b;
+    box-shadow: 0 0 0 3px rgba(248, 227, 108, 0.35);
+}
+
 .workitems {
     display: flex;
     flex-direction: column;

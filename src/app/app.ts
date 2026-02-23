@@ -13,7 +13,8 @@ import { WorkitemsComponent } from './components/workitems/workitems.component/w
 @Component({
   selector: 'app-root',
   //imports: [RouterOutlet,PostComponent],
-  imports: [RouterOutlet, PostComponent, WorkitemComponent, WorkitemsComponent],
+  //imports: [RouterOutlet, PostComponent, WorkitemComponent, WorkitemsComponent],
+  imports: [WorkitemsComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
@@ -23,13 +24,13 @@ export class App {
   data = signal<Array<PostEntity>>([]);
   sheetinfo = signal<any>(null);
   workitems = signal<Array<WorkItem>>([]);
-  private postService = inject(Postservice);
+  //private postService = inject(Postservice);
   private workitemService = inject(WorkitemService);
   async ngOnInit() {
 
     //const posts = await this.postService.searchPosts1();
-    const posts = await this.postService.readFromFile();
-    this.data.set(posts);
+    //const posts = await this.postService.readFromFile();
+    //this.data.set(posts);
     //this.sheetinfo.set(sheetinfo1);
     //this.workitems.set(workitems);
     // this.postService.searchPosts().subscribe((posts) => {this.data.set(posts);}); 

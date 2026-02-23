@@ -8,13 +8,29 @@
     </div>
     <div class="workitem-right">
           <div>{{workitem.description}}</div>
+          <textarea
+        class="workitem-estimate-explanation"
+        [ngModel]="estimateExplanation"
+        (ngModelChange)="onEstimateExplanationChange($event)"
+        rows="4"
+        placeholder="Estimate explanation..."
+          ></textarea>
     </div>        
     <div class="workitem-subitems" >
     </div>
     <div>
       @for(subitem of subitems; track subitem.id) {
         <div class="workitem-subitem">
-          <app-workitem [title]="subitem.title" [description]="subitem.description" [estimate]="subitem.estimate" [verdict]="subitem.verdict" [subitems]="subitem.subitems ?? []"></app-workitem>  
+          <app-workitem
+            [id]="subitem.id"
+            [title]="subitem.title"
+            [description]="subitem.description"
+            [estimate]="subitem.estimate"
+            [verdict]="subitem.verdict"
+            [estimateExplanation]="subitem.estimateExplanation ?? ''"
+            (workitemChange)="onSubitemWorkitemChange($event)"
+            [subitems]="subitem.subitems ?? []"
+          ></app-workitem>  
         </div>
       }
 </div>

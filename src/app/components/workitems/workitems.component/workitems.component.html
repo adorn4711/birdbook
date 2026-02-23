@@ -1,8 +1,27 @@
 <p>Workitems</p>
 
-<div> Number: {{ workitems().length }}</div>
+<div class="workitems-toolbar">
+  <div> Number: {{ workitems().length }}</div>
+  <div class="workitems-actions">
+    <button type="button" class="workitems-save" (click)="saveAll()">
+      Save Changes
+    </button>
+    <button type="button" class="workitems-reset" (click)="resetLocalCache()">
+      Reset local cache
+    </button>
+  </div>
+</div>
 <div class="workitems">
-@for(workitem of workitems(); track workitem.title) {
-    <app-workitem [title]="workitem.title" [description]="workitem.description" [estimate]="workitem.estimate" [verdict]="workitem.verdict" [subitems]="workitem.subitems ?? []"></app-workitem>
+@for(workitem of workitems(); track workitem.id) {
+    <app-workitem
+      [id]="workitem.id"
+      [title]="workitem.title"
+      [description]="workitem.description"
+      [estimate]="workitem.estimate"
+      [verdict]="workitem.verdict"
+      [estimateExplanation]="workitem.estimateExplanation ?? ''"
+      (workitemChange)="onWorkitemChange($event)"
+      [subitems]="workitem.subitems ?? []"
+    ></app-workitem>
   } 
 </div>  

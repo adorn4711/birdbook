@@ -90,3 +90,23 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Backend informatiom
+
+- Local ``http://localhost:3000`
+- On Vercel `https://googlesheetbackend-git-dev-adorn4711s-projects.vercel.app`
+
+## Vercel protection bypass (local dev)
+
+If your Vercel backend is protected, start Angular with the bypass secret in an environment variable:
+
+```bash
+VERCEL_BYPASS_SECRET=your_secret_here bun run start:vercel_backend
+```
+
+The `vercel_backend` proxy configuration sends:
+- `x-vercel-protection-bypass`
+- `x-vercel-set-bypass-cookie: true`
+
+
+
