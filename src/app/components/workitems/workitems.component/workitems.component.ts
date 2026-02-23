@@ -16,7 +16,7 @@ export class WorkitemsComponent {
   workitems = signal<Array<WorkItem>>([]);
 
   async ngOnInit() {
-    await this.workitemService.getSecurityToken();
+    //await this.workitemService.getSecurityToken();
     const workitems = await this.workitemService.getWorkitems();
     const sorted = this.sortWorkitems(workitems);
     this.workitems.set(sorted);

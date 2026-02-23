@@ -103,7 +103,7 @@ export class WorkitemService {
     try {
       const obs = this.http.get(this.backendSheetInfoUrl, {
         responseType: 'text',
-        headers: this.getAuthHeaders(),
+        //headers: this.getAuthHeaders(),
       });
       const text = await firstValueFrom(obs);
       return text;
