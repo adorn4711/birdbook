@@ -31,6 +31,7 @@ export class WorkitemService {
     const headers = { Accept: 'text/plain',     'x-vercel-protection-bypass': bypassSecret,
       'x-vercel-set-bypass-cookie': 'true',
     } as const;
+    console.log('Request headers for backend login:', headers);
     try {
       const obs = this.http.get(this.backendLoginUrl, {
         responseType: 'text',
