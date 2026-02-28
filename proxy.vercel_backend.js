@@ -1,4 +1,4 @@
-const bypassSecret = process.env.VERCEL_BYPASS_SECRET ?? '';
+const bypassSecret = process.env.VERCEL_AUTOMATION_BYPASS_SECRET ?? '';
 console.log('Vercel bypass secret:', bypassSecret);
 const bypassHeaders = bypassSecret
   ? {
