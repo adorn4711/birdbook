@@ -61,15 +61,16 @@
         "serve": {
           "builder": "@angular/build:dev-server",
           "options": {
-            "proxyConfig": "proxy.local.json"
+              "proxyConfig": "proxy.vercel_backend.js"
           },
           "configurations": {
             "production": {
-              "buildTarget": "birdbook:build:production"
+              "buildTarget": "birdbook:build:production",
+              "proxyConfig": "proxy.vercel_backend.js"
             },
             "development": {
               "buildTarget": "birdbook:build:development",
-              "proxyConfig": "proxy.local.json"
+              "proxyConfig": "proxy.vercel_backend.js"
             },
             "local": {
               "buildTarget": "birdbook:build:development",
