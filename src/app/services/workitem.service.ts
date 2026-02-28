@@ -28,6 +28,7 @@ export class WorkitemService {
         responseType: 'text',
         headers: headers,
       });
+      console.log('obs value:', obs);
       const text = await firstValueFrom(obs);
       const accessToken = this.extractAccessToken(text);
       if (!accessToken) {
