@@ -21,6 +21,7 @@ import { WorkitemsComponent } from './components/workitems/workitems.component/w
 export class App {
   protected readonly title = signal('birdbook');
   protected readonly urlAuthValue = signal<string | null>(null);
+  protected readonly urlTokenValue = signal<string | null>(null);
 
   data = signal<Array<PostEntity>>([]);
   sheetinfo = signal<any>(null);
@@ -29,11 +30,17 @@ export class App {
   private workitemService = inject(WorkitemService);
   async ngOnInit() {
     const authValue = new URLSearchParams(window.location.search).get('auth');
+    const tokenValue = new URLSearchParams(window.location.search).get('token');
     this.urlAuthValue.set(authValue);
+    this.urlTokenValue.set(tokenValue);
     if (authValue) {
       this.workitemService.setURLAuthValue(authValue);
     }
+    if (tokenValue) {
+      this.workitemService.setAuthToken(tokenValue);
+    }
     console.log('Query param auth:', authValue);
+    console.log('Query param token:', tokenValue);
 
     //const posts = await this.postService.searchPosts1();
     //const posts = await this.postService.readFromFile();

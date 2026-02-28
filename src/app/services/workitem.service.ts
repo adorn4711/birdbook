@@ -104,13 +104,13 @@ export class WorkitemService {
     console.log('Setting auth token from URL parameter:', authValue);
   }
 
-  //setAuthToken(token: string): void {
-  //  if (!token) {
-  //    return;
-  //  }
-  //  console.log('Setting auth token from URL or backend token.');
-  //  localStorage.setItem(this.authTokenStorageKey, token);
- // }
+  setAuthToken(token: string): void {
+    if (!token) {
+      return;
+    }
+    console.log('Setting auth token from URL or backend token.');
+    localStorage.setItem(this.authTokenStorageKey, token);
+ }
 
   clearAuthToken(): void {
     localStorage.removeItem(this.authTokenStorageKey);
