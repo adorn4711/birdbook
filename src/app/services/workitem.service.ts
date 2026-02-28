@@ -21,6 +21,7 @@ export class WorkitemService {
   workitems: Array<WorkItem> = [];
 
   async getSecurityToken(): Promise<string | null> {
+    console.log('Requesting security token from backend login endpoint:', this.backendLoginUrl);
     const headers = { Accept: 'text/plain' } as const;
     try {
       const obs = this.http.get(this.backendLoginUrl, {
@@ -33,7 +34,8 @@ export class WorkitemService {
         console.warn('No access token received from backend login endpoint.');
         return null;
       }
-      this.setAuthToken(accessToken);
+      //this.setAuthToken(accessToken);
+      console.log('Received access token from backend:', accessToken);
       return accessToken;
     } catch (err) {
       console.error('Failed to get security token from backend.', err);
@@ -67,8 +69,10 @@ export class WorkitemService {
   private async ensureAuthToken(): Promise<string | null> {
     const token = this.getAuthToken();
     if (token) {
+      console.log('Existing auth token found;', token);
       return token;
     }
+    console.log('No auth token found. Attempting to retrieve from backend.');
     return this.getSecurityToken();
   }
 
@@ -82,16 +86,17 @@ export class WorkitemService {
     };
   }
 
-  setAuthToken(token: string): void {
-    console.log('Setting auth token:', token);
-    localStorage.setItem(this.authTokenStorageKey, token);
-  }
+  //setAuthToken(token: string): void {
+  //  console.log('Setting auth token:', token);
+  //  localStorage.setItem(this.authTokenStorageKey, token);
+  //}
 
   clearAuthToken(): void {
     localStorage.removeItem(this.authTokenStorageKey);
   }
 
   getAuthToken(): string | null {
+    console.log('Retrieving auth token from local storage.', 'Token exists:', localStorage.getItem(this.authTokenStorageKey)) ;
     return localStorage.getItem(this.authTokenStorageKey);
   }
 
@@ -270,6 +275,7 @@ export class WorkitemService {
   }
 
   private writeLocalCache(workitems: Array<WorkItem>): void {
+    console.log('Writing workitems to local cache:', workitems);
     localStorage.setItem(this.localStorageKey, JSON.stringify(workitems));
   }
 
