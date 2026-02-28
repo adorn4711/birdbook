@@ -18,11 +18,19 @@ export class WorkitemService {
   private readonly localStorageKey = 'birdbook.workitems';
   private readonly authTokenStorageKey = 'birdbook.authToken';
   private lastLoadedFrom: 'backend' | 'local' | 'none' = 'none';
+  private authValue: string = '';
   workitems: Array<WorkItem> = [];
 
   async getSecurityToken(): Promise<string | null> {
     console.log('Requesting security token from backend login endpoint:', this.backendLoginUrl);
-    const headers = { Accept: 'text/plain' } as const;
+    console.log('Auth from start :', this.authValue);
+    const bypassSecret1 = (import.meta as any).env?.VERCEL_BYPASS_SECRET ?? '';
+    const bypassSecret = this.authValue;
+    console.log('Using bypass secret for backend auth:', bypassSecret);
+    
+    const headers = { Accept: 'text/plain',     'x-vercel-protection-bypass': bypassSecret,
+      'x-vercel-set-bypass-cookie': 'true',
+    } as const;
     try {
       const obs = this.http.get(this.backendLoginUrl, {
         responseType: 'text',
@@ -87,10 +95,21 @@ export class WorkitemService {
     };
   }
 
+  setURLAuthValue(authValue: string): void {
+    if (!authValue) {
+      return;
+    }
+    this.authValue = authValue;
+    console.log('Setting auth token from URL parameter:', authValue);
+  }
+
   //setAuthToken(token: string): void {
-  //  console.log('Setting auth token:', token);
+  //  if (!token) {
+  //    return;
+  //  }
+  //  console.log('Setting auth token from URL or backend token.');
   //  localStorage.setItem(this.authTokenStorageKey, token);
-  //}
+ // }
 
   clearAuthToken(): void {
     localStorage.removeItem(this.authTokenStorageKey);
