@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --configuration vercel_backend",
     "start:local": "ng serve --configuration local",
     "start:vercel_backend": "ng serve --configuration vercel_backend",
     "build": "ng build",
